@@ -198,8 +198,7 @@ li {
   object-fit: contain;
 }
 .hero-content {
-  position: relative;
-  top: 10%;
-  right: 6%;
-  transform: translate(25%, -50%);
+  position: absolute;
+  top: 40%;
+  right: 60%;
 }
