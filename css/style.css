@@ -208,7 +208,7 @@ li {
   color: #b888ff;
   font-size: 3rem;
   font-weight: 700;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 .hero-content .discount {
   color: darkorange;
@@ -226,5 +226,9 @@ li {
   background-color: crimson;
   padding: 1rem 3rem;
   text-transform: uppercase;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
+}
+
+.section {
+  padding: 10rem 0 5rem 0;
 }
