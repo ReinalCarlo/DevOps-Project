@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   background-color: #d1e2e9;
@@ -178,7 +178,7 @@ li {
   }
 
   body.show::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -227,4 +227,94 @@ li {
   padding: 1rem 3rem;
   text-transform: uppercase;
   margin-top: 2rem;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+.products li {
+  flex: 0 1 30rem;
+  margin: 1rem;
+  margin-bottom: 0;
+  height: 22rem;
+  border-top: 0.2rem #e0e0e0 solid;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+.product img {
+  max-height: 26rem;
+  max-width: 22rem;
+  margin-top: 2rem;
+}
+.product-name {
+  line-height: 1.2rem;
+}
+.product-brand {
+  font-size: 1.2rem;
+  color: #808080;
+}
+.product-price {
+  font-size: 2rem;
+}
+.product-price span {
+  font-size: 1.2rem;
+}
+.login-page {
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 5;
+  max-width: 360px;
+  margin: 0 auto 70px;
+  padding: 40px;
+  text-align: center;
+}
+.form input {
+  font-family: 'Poppins', sans-serif;
+  outline: 1;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 15px;
+  background: white;
+}
+.form button {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #243a6f;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #f1f1f1;
+  font-size: 14px;
+  cursor: pointer;
+}
+.form button:hover,
+.form button:active {
+  background: #243a6f;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #243a6f;
+  font-size: 14px;
+}
+.form .message a {
+  font-size: 14px;
+}
+.form .register-form {
+  display: none;
 }
